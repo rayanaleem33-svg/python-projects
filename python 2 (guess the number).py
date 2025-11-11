@@ -12,7 +12,7 @@ def number_guessing_game():
 
         # Check if input is a number
         if not guess.isdigit():
-            print("⚠️ Please enter a valid number!")
+            print("Please enter a valid number!")
             continue
 
         guess = int(guess)
